@@ -9,4 +9,4 @@ class PlayerStats:
         return (self.df[self.df["Player_name"]==self.playername]).iloc[:,:5]
     def FetchBowlingStats(self,playername):
         self.playername = playername
-        return (self.df[self.df["Player_name"]==self.playername]).iloc[:,[0,5,6,7,8,9,10,11,12,13]]
+        return (self.df[self.df["Player_name"]==self.playername]).iloc[:,[0,6,7,8,9,10,11,12,13]]
